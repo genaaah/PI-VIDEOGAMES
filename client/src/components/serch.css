@@ -1,0 +1,11 @@
+button{
+    background-color: #874ab9;
+    border: 0;
+    border-radius: .25em;
+    cursor: pointer;
+    margin-top: 25px;
+}
+input{
+    border: 0;
+    border-radius: .25em;
+}

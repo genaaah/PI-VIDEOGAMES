@@ -1,0 +1,74 @@
+body{
+    background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700073122.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.vc{
+    font-size: 1em;
+    border-radius: .25em;
+    padding: 0 .5em;
+    background: #874ab9;
+    border: 0!important;
+    overflow: hidden;
+    background-image: none;
+    box-shadow:none;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.cp{
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: .25em;
+    padding: 0 .5em;
+    background: #874ab9;
+    color: #000;
+    border: 0!important;
+    overflow: hidden;
+    background-image: none;
+    box-shadow:none;
+    cursor: pointer;
+}
+
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline:0;
+    box-shadow:none;
+    border: 0!important;
+    background: #874ab9;
+    background-image: none;
+    border-radius: .25em;
+    overflow: hidden;
+    margin: 5px;
+}
+
+select::-ms-expand{
+    display: none;
+}
+
+select{
+    flex: 1;
+    padding: 0 .5em;
+    color: #000;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+select::after{
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #2b2e2e;
+    cursor: pointer;
+    pointer-events: none;
+    transition: .25s all ease;
+}

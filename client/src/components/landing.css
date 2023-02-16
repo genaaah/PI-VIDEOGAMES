@@ -1,0 +1,80 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#hero {
+    min-height: 100vh;
+    position: static;
+}
+
+.promo {
+    padding-top: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.promo h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgb(255, 232, 255);
+    font-weight: 700;
+}
+
+.promo p {
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgb(255, 232, 255);
+    font-weight: 300;
+}
+
+.incio-boton {
+    display: inline-block;
+    border: none;
+    height: 50px;
+    border-radius: 30px;
+    padding: 10px 0;
+    width: 200px;
+    background-color: #f5be09;
+    font-size: 1.8rem;
+    color: #3f3f3f;
+    font-weight: 650;
+    transition: 150ms;
+    margin-top: 25px;
+}
+
+.incio-boton:focus {
+    outline: none;
+}
+
+.incio-boton:hover {
+    transform: translate(0, -5px);
+    background-color: #e7d38f;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.capa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1c1c1d;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+}
